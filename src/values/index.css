@@ -1,0 +1,72 @@
+.values-bg-section {
+    background-color:black;
+    padding-top:50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content:flex-end;
+    padding-bottom:50px;
+  }
+  .values-card {
+    background: #030B15;
+    padding: 50px;
+    max-width: 700px;
+    text-align: center;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top: 2px solid #00ADD8;
+    border-bottom: 2px solid #00ADD8;
+    box-shadow: -25px 0px 50px #00ADD8; 
+}
+
+.values-card::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: linear-gradient(to bottom, #00ADD8, transparent);
+    box-shadow: -25px 0px 50px #00ADD8;
+    z-index: -1;
+}
+
+     
+  
+  .values-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .values-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: cyan;
+  }
+  
+  .values-description {
+    font-size: 20px;
+    font-weight: bold;
+    color:#0076CE;
+    margin-bottom: 15px;
+  }
+  
+  .values-para {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: auto;
+    color:#dfdfdf;
+  }
+  

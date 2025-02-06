@@ -1,0 +1,53 @@
+.mission-card {
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    border:1px white solid;
+  }
+  .bottom-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  .gif{
+    width:300px;
+  }
+  .dimensions {
+    width:667px;
+    height:105px;
+  }
+  
+  .description-heading {
+    color:#0076CE;
+    font-family: 'Outfit', serif;
+    font-weight: 600;
+    font-size: 28px; 
+    line-height: 35.84px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .description-para {
+    color:#d9d9d9;
+    font-family: 'Outfit', "Roboto";
+    font-weight:500;
+    font-size:15px; 
+    line-height:27px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mission-bg-section{
+    background-color: black;
+    padding-top:50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content:flex-end;
+    padding-bottom:50px;
+  }
+  
